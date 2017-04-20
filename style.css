@@ -715,13 +715,13 @@ a:hover {
 	line-height: 20px;
 	text-transform: uppercase;
 }
-.c_bottom-list ul {
+.c_bottom-box ul {
 	list-style: none;
 }
-.c_bottom-list ul li {
+.c_bottom-box ul li {
 	margin-bottom: 2px;
 }
-.c_bottom-list ul li a {
+.c_bottom-box ul li a {
 	display: inline-block;
 	background: url(i/bg-bottom-arrow.png) left center no-repeat;
 	padding-left: 14px;
@@ -730,7 +730,7 @@ a:hover {
 	line-height: 22px;
 	text-decoration: none;
 }
-.c_bottom-list ul li a:hover {
+.c_bottom-box ul li a:hover {
 	text-decoration: underline;
 }
 
