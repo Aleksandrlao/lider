@@ -2,6 +2,7 @@
 <html>
 <head>
 	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script><![endif]-->
 	<title>Lider</title>
 	<link href="style.css" rel="stylesheet">
@@ -37,6 +38,39 @@
 		</ul>
 	</div>
 </nav>
+
+
+<div class="m_box c_slider">
+	<div class="c_slider-item c_slider-item1">
+		<div class="m_inb">
+			<div class="c_slider-info">
+				<div class="c_slider-title">Специальное предложение для школ и детских садов</div>
+				<div class="c_slider-txt">Краткое содержание акции или спецпредложения со сровами действия и основными выгодами</div>
+				<div class="c_slider-btn"><a href="#" class="action" data-event="request">Отправить заявку</a></div>
+			</div>
+		</div>
+	</div>
+
+	<div class="c_slider-item c_slider-item2">
+		<div class="m_inb">
+			<div class="c_slider-info">
+				<div class="c_slider-title">Специальное предложение для школ и детских садов</div>
+				<div class="c_slider-txt">Краткое содержание акции или спецпредложения со сровами действия и основными выгодами</div>
+				<div class="c_slider-btn"><a href="#" class="action" data-event="request">Отправить заявку</a></div>
+			</div>
+		</div>
+	</div>
+
+	<div class="c_slider-item c_slider-item3">
+		<div class="m_inb">
+			<div class="c_slider-info">
+				<div class="c_slider-title">Специальное предложение для школ и детских садов</div>
+				<div class="c_slider-txt">Краткое содержание акции или спецпредложения со сровами действия и основными выгодами</div>
+				<div class="c_slider-btn"><a href="#" class="action" data-event="request">Отправить заявку</a></div>
+			</div>
+		</div>
+	</div>
+</div><!-- .content -->
 
 
 <div class="m_box c_preim">
@@ -340,8 +374,34 @@
 </footer><!-- .footer -->
 
 
-<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
-<script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+
+
+
+<div class="popup-callme popup">
+	<div class="popup-close">x</div>
+	<div class="popup-title">Заказать звонок</div>
+	<div class="popup-body"><?php echo do_shortcode('[contact-form-7 id="4" title="Заказать звонок"]'); ?></div>
+</div>
+
+<div class="popup-zakaz popup">
+	<div class="popup-close">x</div>
+	<div class="popup-title">Заказать металл</div>
+	<div class="popup-body"><?php echo do_shortcode('[contact-form-7 id="20" title="Заказать металл"]'); ?></div>
+</div>
+
+<div class="popup-thy popup">
+	<div class="popup-close">x</div>
+	<div class="popup-title">Ваша заявка успешно отправлена</div>
+</div>
+
+<div class="overlay"></div>
+
+
+
+<script src="js/jquery-1.11.1.min.js"></script>
+<script src="js/jquery-migrate-1.2.1.min.js"></script>
+<script src="js/jquery.fancybox-1.3.7.min.js"></script>
+<script src="js/slick.min.js"></script>
 <script src="js/jquery.main.js"></script>
 
 </body>
